@@ -1,0 +1,153 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="officejpg">
+        <item name="android:layout_width">57dp</item>
+        <item name="android:layout_height">92dp</item>
+        <item name="android:layout_alignTop">@+id/imageView2</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="publicnotesimage">
+        <item name="android:layout_width">57dp</item>
+        <item name="android:layout_height">92dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignTop">@+id/imageView</item>
+        <item name="android:layout_marginEnd">40dp</item>
+    </style>
+
+    <style name="personalnotesimage">
+        <item name="android:layout_width">57dp</item>
+        <item name="android:layout_height">92dp</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginStart">44dp</item>
+        <item name="android:layout_marginTop">57dp</item>
+    </style>
+
+    <style name="personaltext">
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginTop">172dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="officetext">
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_alignTop">@+id/textView</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="publictext">
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignTop">@+id/textView</item>
+        <item name="android:layout_marginEnd">11dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="image">
+        <item name="android:layout_width">163dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_alignEnd">@+id/textView3</item>
+        <item name="android:layout_alignRight">@id/textView3</item>
+        <item name="android:layout_alignTop">@id/textView12</item>
+        <item name="android:layout_below">@id/textView3</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginEnd">-4dp</item>
+        <item name="android:layout_marginRight">-4dp</item>
+        <item name="android:layout_toLeftOf">@id/textView12</item>
+        <item name="android:adjustViewBounds">false</item>
+        <item name="android:background">@color/brown</item>
+    </style>
+
+    <style name="line">
+        <item name="android:layout_width">360dp</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">219dp</item>
+        <item name="android:background">#000000</item>
+    </style>
+
+    <style name="linear">
+        <item name="android:layout_width">164dp</item>
+        <item name="android:layout_height">225dp</item>
+        <item name="android:layout_alignEnd">@id/textView13</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignRight">@id/imageView10</item>
+        <item name="android:layout_below">@id/imageView10</item>
+        <item name="android:layout_marginBottom">9dp</item>
+        <item name="android:layout_marginEnd">7dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:background">@android:color/holo_orange_dark</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="imageinlinear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">126dp</item>
+    </style>
+
+    <style name="textinlinear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text1">
+        <item name="android:layout_width">192dp</item>
+        <item name="android:layout_height">111dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignStart">@+id/textView</item>
+        <item name="android:layout_marginTop">233dp</item>
+        <item name="android:background">@color/lightorange</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text2">
+        <item name="android:layout_width">192dp</item>
+        <item name="android:layout_height">208dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignStart">@+id/textView</item>
+        <item name="android:layout_below">@id/textView12</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:background">@android:color/holo_red_light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+</resources>

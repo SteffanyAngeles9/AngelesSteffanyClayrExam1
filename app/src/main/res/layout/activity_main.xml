@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        app:srcCompat="@drawable/office"
+        style="@style/officejpg" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        app:srcCompat="@drawable/publicnotes"
+        style="@style/publicnotesimage" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        app:srcCompat="@drawable/personal"
+        style="@style/personalnotesimage" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/personaltext"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="162dp"
+        android:text="Personal Notes" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:text="Office Notes"
+        style="@style/officetext" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:text="Public Notes"
+        style="@style/publictext" />
+
+    <View style="@style/line" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        app:srcCompat="@drawable/images11"
+        style="@style/image" />
+
+    <LinearLayout style="@style/linear">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            app:srcCompat="@drawable/elvis_personal_notes"
+            style="@style/imageinlinear" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:text="“So many books, so little time.” "
+            style="@style/textinlinear" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:text="“Be yourself; everyone else is already taken.”"
+        style="@style/text1" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:text="“A room without books is like a body without a soul.” "
+        style="@style/text2" />
+
+</RelativeLayout>
